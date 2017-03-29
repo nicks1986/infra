@@ -111,7 +111,8 @@ can be computed, which can be as good, if not better, as an IP address in ascert
 requests are from the same user.
 
 <p class=fingerprinting-vector>Features that can be
-<dfn id=fingerprinting-vector>used to fingerprint the user</dfn> are marked as this paragraph is.
+<dfn export lt="fingerprinting vector">used to fingerprint the user</dfn> are marked as this
+paragraph is.
 
 
 <h2 id=algorithms>Algorithms</h2>
