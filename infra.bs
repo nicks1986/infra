@@ -103,6 +103,17 @@ specifications using the Infra Standard, the user agent is generally the client 
 implements the specification.
 
 
+<h3 id=privacy>Privacy concerns</h3>
+
+<p>Certain characteristics of a user's system can be used to distinguish groups of users from each
+other; by collecting enough such information, an individual user's browser's "digital fingerprint"
+can be computed, which can be as good, if not better, as an IP address in ascertaining which
+requests are from the same user.
+
+<p class=fingerprinting-vector>Features that can be
+<dfn id=fingerprinting-vector>used to fingerprint the user</dfn> are marked as this paragraph is.
+
+
 <h2 id=algorithms>Algorithms</h2>
 
 <p>Algorithms, and requirements phrased in the imperative as part of algorithms (such as "strip any
