@@ -105,7 +105,8 @@ implements the specification.
 
 <h3 id=privacy>Privacy concerns</h3>
 
-<p>Some features of HTML trade user convenience for a measure of user privacy.
+<p>Some features that are defined in documents using the Infra Standard might trade user convenience
+for a measure of user privacy.
 
 <p>In general, due to the Internet's architecture, a user can be distinguished from another by the
 user's IP address. IP addresses do not perfectly match to a user; as a user moves from device to
@@ -151,8 +152,8 @@ information that can be used to group a user's requests. (In this case, by poten
 via a brute force search, which fonts a user has installed, information which can vary
 considerably from user to user.)
 
-<p class=fingerprinting-vector>Features in this specification which can be
-<dfn export lt="fingerprinting vector">used to fingerprint the user</dfn> are marked as this
+<p class=fingerprinting-vector>Features that are defined in documents using the Infra Standard that
+can be <dfn export lt="fingerprinting vector">used to fingerprint the user</dfn> are marked as this
 paragraph is.
 
 <p>Other features in the platform can be used for the same purpose, though, including, though not
@@ -163,8 +164,7 @@ limited to:
 
  <li>The maximum allowed stack depth for recursion in script.
 
- <li>Features that describe the user's environment, like Media Queries and the <code>Screen</code>
- object. [[MQ]] [[CSSOM]]
+ <li>Features that describe the user's environment.
 
  <li>The user's time zone.
 </ul>
