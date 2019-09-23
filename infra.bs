@@ -121,7 +121,7 @@ requests could be related to each other. Cookies, for example, are designed spec
 this, and are the basis of most of the web's session features that enable you to log into a site
 with which you have an account. More general, any kind of cache mechanism or shared state, including
 but not limited to HSTS, the HTTP cache, grouping of connections, storage APIs, can and ought to be
-expected to be abused. [[COOKIES]] [[HSTS]] [[STORAGE]]
+expected to be abused. [[COOKIES]] [[RFC6797]] [[STORAGE]]
 
 <p>There are other mechanisms that are more subtle. Certain characteristics of a user's system can
 be used to distinguish groups of users from each other; by collecting enough such information, an
