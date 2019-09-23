@@ -158,6 +158,7 @@ used as <dfn export>tracking vector</dfn> are marked as this paragraph is.
  <li>The maximum allowed stack depth for recursion in script.
  <li>Features that describe the user's environment.
  <li>The user's time zone.
+ <li>HTTP request headers.
 </ul>
 
 
